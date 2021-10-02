@@ -21,6 +21,7 @@ from clique import views
 router = routers.DefaultRouter()
 router.register(r'profiles', views.ProfileView, 'profile')
 router.register(r'posts', views.PostView, 'post')
+router.register(r'comments', views.CommentView, 'comment')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

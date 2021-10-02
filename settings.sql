@@ -1,0 +1,3 @@
+CREATE DATABASE clique;
+CREATE USER cliqueuser13 WITH PASSWORD 'clique';
+GRANT ALL PRIVILEGES ON DATABASE clique TO cliqueuser13;
